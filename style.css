@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    background-color: lightgray;
+    margin-block: 15vh;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#input{
+    background-color: rgb(228, 228, 228);
+    margin-block: 10px;
+    padding: 10px;
+}
+input{
+    background-color: none;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 15px;
+}
+ .s-btn{
+
+    border: none;
+    padding: 10px 15px;
+}
+ .s-btn:hover{
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.friend{
+    display:flex;
+
+    
+    align-items: center;
+
+    width: 100%;
+
+}
+.friend .span{
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+
+}
+.friend .span:first-of-type{
+  width: 40%;
+}
+.friend .span:last-of-type{
+    width: 20%;
+}
+.friend .serial {
+    width: 10%;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+.friend .button{
+    margin: 10px;
+    padding: 7px 10px;
+    border: none;
+    background-color: rgb(66, 32, 255);
+    color: white;
+
+    width: 30%;
+
+}
+.friend .button:hover{
+    background-color: rgb(23, 3, 141);
+
+}
